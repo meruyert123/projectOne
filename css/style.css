@@ -1,0 +1,209 @@
+*{ 
+    padding: 0; 
+    margin: 0; 
+}
+
+.mainphoto{
+  margin-top: 50px;
+}
+#mainp{ 
+  height: 650px;  
+   
+  width: 100%; 
+  
+  
+
+} 
+.h5{ 
+    margin: 50px; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+     font-size: 30px; 
+} 
+
+.general{ 
+  display: flex; 
+  width: 100%; 
+  padding-top: 50px; 
+  margin-bottom: 10px; 
+} 
+.genofthree{ 
+  display: flex; 
+  width: 100%; 
+  margin-top: 50px;
+
+} 
+.images{ 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center;   
+  height: 420px; 
+  width: 730px; 
+
+} 
+.img3{ 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center;   
+  height: 620px; 
+  width: 480px; 
+
+} 
+
+h1{ 
+    font-family: 'Alfa Slab One', cursive; 
+    width: 600px; 
+    text-align: center; 
+    margin-left: 430px; 
+} 
+.logo_img{
+    margin-right: 500px;
+}
+button{
+    position: absolute;
+    right: 1415px;
+    top: 70%;
+}
+.carousel{
+  width: 33%;
+  height: 100%;
+  display: inline-flex;
+}
+
+  h1{
+      font-family: 'Alfa Slab One', cursive;
+      width: 600px;
+      text-align: center;
+      margin-left: 430px;
+  }
+ 
+#join{
+  display: flex;
+
+  margin: 20px;
+
+}
+
+.col{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin: 50px;
+  margin-left: 130px;
+
+  width: 50%;
+}
+#di{
+  /* width: 600px; */
+  height: 5px;
+  margin: 20px;
+  background-color: #000000;;
+  margin: 30px 0px 30px 5px;
+}
+h4{
+  font-size: 29px;
+  font-family: 'Bonheur Royale';
+  font-family: 'Quicksand', sans-serif;
+  margin: 5px;
+  color: rgb(0, 0, 0);
+}
+hr{
+  margin: 0px 150px 0px 150px;
+  background-color: rgb(0, 0, 0);
+}
+.headF{
+  display: flex;
+
+
+  margin-right: 100px;
+  margin: 20px;
+
+}
+.four{
+  width: 200px;
+  height: 250px;
+  margin-left: 130px;
+  color: black;
+}
+.hey{
+  font-size: 16px;
+  display: flex;
+  justify-content: column;
+  text-decoration: none;
+  line-height: 25px;
+  margin: 5px;
+  color: rgb(0, 0, 0);
+  font-family: 'Bonheur Royale';
+  font-family: 'Quicksand', sans-serif;
+}
+.pro{
+  font-size: 20px;
+  margin: 5px;
+  color: rgb(0, 0, 0);
+  font-family: 'Bonheur Royale';
+  font-family: 'Quicksand', sans-serif;
+}
+.pro1{
+  font-size: 17px;
+  margin: 5px 5px 0px 5px;
+  color: rgb(0, 0, 0);
+}
+#m{
+  background-color: rgb(255, 253, 245);
+  margin-top: 80px;
+  height: 680px;
+}
+
+.h1{
+  margin-top: 50px;
+}
+@media(max-width: 450px){ 
+  body{ 
+      min-width: 450px; 
+  } 
+  #mainp{ 
+    height: 450px;  
+     
+    width: 100%; 
+    
+    
+  
+  } 
+  .general{ 
+      flex-direction: column; 
+      margin: 0 auto; 
+      display: block;  
+      height: 450px;  
+     
+      width: 100%; 
+  } 
+  .images{ 
+      height: 350px; 
+      width: 100%; 
+   
+  } 
+  .genofthree{ 
+      flex-direction: column; 
+      width: 100%; 
+   
+  } 
+  .img3{ 
+      width: 500px; 
+  } 
+  .headF{
+    flex-direction: column;
+  } 
+  .four{
+    margin: 0 auto;
+    display: block;
+  }
+  .carousel{
+    flex-direction: column;
+  }
+  .d-block w-100{
+    width: 30%;
+  }
+  .h1{
+
+  }
+}
